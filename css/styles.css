@@ -1,0 +1,238 @@
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0;
+  padding: 0; */
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0; */
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 156px;
+}
+
+.section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.header-container {
+  padding: 24px 156px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-list .header-list-item {
+  display: inline;
+  margin-left: 40px;
+}
+
+.header-list .header-list-item:first-child {
+  margin-left: 76px;
+}
+
+.header-address {
+  display: flex;
+  column-gap: 40px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.header-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.header-link-active,
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+  background-color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+.address-list-item {
+  color: #434455;
+}
+
+.primary-button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #404bbf;
+}
+.primary-button:focus {
+  background-color: #404bbf;
+}
+
+.hero-section {
+  background-color: var(--primary-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--text-white);
+}
+
+.qualities-list-container {
+  display: flex;
+  column-gap: 24px;
+  justify-content: space-between;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.section-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.employee-section {
+  background-color: #f4f4fd;
+}
+.employee-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.employee-section-list {
+  display: flex;
+  margin-top: 72px;
+  column-gap: 24px;
+}
+
+.employee-section-list-item {
+  background-color: #ffffff;
+}
+.employee-section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.employee-section-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.portofolio-list {
+  display: flex;
+  row-gap: 24px;
+  column-gap: 42px;
+  
+}
+
+.portfolio-section {
+  background-color: #f4f4fd;
+}
+.portfolio-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+.portfolio-section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+.portfolio-section-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+
+.logo-element {
+  color: #2e2f42;
+}
+
+.footer-logo-element {
+  color: #f4f4fd;
+}
+.footer-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
