@@ -71,7 +71,6 @@ address {
 .header-list .header-list-item {
   display: inline;
   margin-left: 40px;
-  padding: 24px 0;
 }
 
 .header-list .header-list-item:first-child {
@@ -346,7 +345,6 @@ body {
   line-height: 1.17;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-element {
@@ -355,6 +353,7 @@ body {
 
 .footer-logo-element {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 .footer-paragraph {
   font-family: Roboto;
