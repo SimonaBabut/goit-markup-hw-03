@@ -45,6 +45,10 @@ a {
   justify-content: space-between;
 }
 
+.header-item-container{
+  padding: 24px 0;
+}
+
 .logo-container {
   margin-right: 76px;
 }
