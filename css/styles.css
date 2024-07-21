@@ -342,3 +342,7 @@ body {
 .footer-container {
   padding: 100px 0;
 }
+.div-container{
+  display: inline-block;
+  margin-bottom: 16px;
+}
