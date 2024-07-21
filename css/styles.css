@@ -59,6 +59,7 @@ img {
 .header-list .header-list-item {
   display: inline;
   margin-left: 40px;
+  padding: 24px 0;
 }
 
 .header-list .header-list-item:first-child {
@@ -68,7 +69,6 @@ img {
 .header-list-container {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-address-container {
   display: flex;
