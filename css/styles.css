@@ -34,7 +34,7 @@ a {
   margin-top: 120px;
   margin-bottom: 120px;
 }
-
+/* header  */
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -229,6 +229,9 @@ body {
 .employee-title-container {
   margin-bottom: 72px;
 }
+.employee-list-container {
+  gap: 24px;
+}
 
 .employee-item-container {
   width: calc((100% - 72px) / 4);
@@ -308,14 +311,10 @@ body {
   margin-bottom: 8px;
 }
 
+/* footer  */
+
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
-  display: inline-block;
-  margin-bottom: 16px;
-  padding: 100px 0;
 }
 
 .logo {
@@ -343,4 +342,10 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-container {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 100px 0;
 }
