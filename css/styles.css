@@ -1,41 +1,29 @@
-/*Style reset*/
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0;
+  padding: 0; */
+  list-style-type: none;
+}
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
-  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  /* margin: 0; */
 }
-html {
-  box-sizing: border-box;
+a {
+  text-decoration: none;
+  font-style: normal;
 }
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-address {
-  font-style: normal;
-}
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* End style reset*/
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -350,7 +338,9 @@ body {
 .logo-element {
   color: #2e2f42;
 }
-
+.footer-logo .footer-container {
+  margin-bottom: 16px;
+}
 .footer-logo-element {
   color: #f4f4fd;
   margin-bottom: 16px;
