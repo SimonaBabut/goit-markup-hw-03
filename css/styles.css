@@ -69,11 +69,6 @@ a {
   display: flex;
   gap: 40px;
 }
-
-.header-item-container {
-  padding: 24px 0;
-}
-
 .header-address-container {
   display: flex;
   gap: 40px;
@@ -345,7 +340,5 @@ body {
 }
 
 .footer-container {
-  display: inline-block;
-  margin-bottom: 16px;
   padding: 100px 0;
 }
