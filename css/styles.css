@@ -45,11 +45,7 @@ a {
   justify-content: space-between;
 }
 
-.header-item-container {
-  padding: 24px 0;
-}
-
-.logo-container {
+logo-container {
   margin-right: 76px;
 }
 
@@ -63,6 +59,7 @@ a {
 .header-list .header-list-item {
   display: inline;
   margin-left: 40px;
+  padding: 24px 0;
 }
 
 .header-list .header-list-item:first-child {
