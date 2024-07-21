@@ -68,8 +68,9 @@ img {
 .header-list-container {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
-.header-item-container {
+.nav-container .header-link {
   padding: 24px 0;
 }
 
