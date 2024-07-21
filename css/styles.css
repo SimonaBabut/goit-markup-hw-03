@@ -167,6 +167,7 @@ body {
 }
 .visually-hidden {
   display: none;
+  visibility: hidden;
 }
 .section-paragraph {
   font-size: 16px;
@@ -342,7 +343,7 @@ body {
 .footer-container {
   padding: 100px 0;
 }
-.div-container{
+.div-container {
   display: inline-block;
   margin-bottom: 16px;
 }
