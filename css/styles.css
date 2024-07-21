@@ -328,6 +328,7 @@ body {
   line-height: 1.17;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-element {
@@ -349,7 +350,4 @@ body {
 .footer-container {
   display: inline-block;
   padding: 100px 0;
-}
-.logo-container {
-  margin-bottom: 16px;
 }
