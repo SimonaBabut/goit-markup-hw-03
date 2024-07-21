@@ -70,6 +70,10 @@ img {
   display: flex;
   gap: 40px;
 }
+.header-item-container {
+  padding: 24px 0;
+}
+
 .header-address-container {
   display: flex;
   gap: 40px;
